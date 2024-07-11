@@ -10,21 +10,22 @@ public class Truck extends MotorTransport {
     }
 
     @Override
+    public void sevice() {
+
+    }
+
+    @Override
     public void checkEngine() {
         System.out.println("Проверяем двигатель");
     }
 
-    @Override
-    public void service() {
-
-    }
 
     public void checkTrailer() {
         System.out.println("Проверяем прицеп");
     }
 
     @Override
-    public void sevice() {
+    public void service() {
         updateTyre();
         checkEngine();
         checkTrailer();

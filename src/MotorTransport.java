@@ -4,7 +4,6 @@ public abstract class MotorTransport extends WheeledTransport {
         super( modelName, wheelsCount);
     }
 
-    public abstract void checkEngine();
 
-    public abstract void service();
+    public abstract void checkEngine();
 }

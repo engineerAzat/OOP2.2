@@ -1,4 +1,4 @@
 public interface Transport {
 
-    public void sevice();
+    void service();
 }

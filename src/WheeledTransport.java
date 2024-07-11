@@ -19,4 +19,6 @@ public abstract class WheeledTransport implements Transport{
 
 
     public abstract void updateTyre();
+
+    public abstract void sevice();
 }
